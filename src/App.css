@@ -1,0 +1,29 @@
+.navbar {
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.list-group-item {
+  flex-flow: column;
+}
+
+img {
+  vertical-align: middle;
+  border-style: solid;
+  border-width: thin;
+}
+
+h1 {
+  font-size: 16pt;
+  float: left;
+  margin: 15px 0px 0px 15px;
+}
+
+.table td {
+  font-size: 12pt;
+  vertical-align: middle;
+}
