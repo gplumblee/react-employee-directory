@@ -65,7 +65,7 @@ function App() {
   return (
     <React.Fragment>
       <main className="container">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="#">
             Employee Directory
           </a>
