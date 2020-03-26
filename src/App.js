@@ -64,16 +64,17 @@ function App() {
 
   return (
     <React.Fragment>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a className="navbar-brand" href="#">
+          Employee Directory
+        </a>
+      </nav>
+      <h6>Select Column to Sort</h6>
       <main className="container">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">
-            Employee Directory
-          </a>
-        </nav>
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">Picture</th>
+              <th scope="col"></th>
               <th onClick={() => handleSort("name")} scope="col">
                 Name
               </th>
